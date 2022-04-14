@@ -21,7 +21,6 @@ canvas{
 
 main{
   position : absolute;
-
   width: 100vw;
   color: white;
   z-index: 99;
@@ -44,15 +43,18 @@ header{
   font-size: 2.5rem;
   padding : 2rem;
   margin-bottom: var(--spacing);
+  text-shadow: 0 3px 0 rgba(0, 0, 0);
 }
 
 section {
   grid-column: 2 / 8;
-  padding: 1rem;
+  padding: 1rem vw;
   background: var(--dark-bg);
   font-size: 1.25rem;
   line-height: 1.5;
   margin-bottom: var(--spacing);
+  
+  flex-direction: column;
 }
 
 blockquote {
