@@ -1,10 +1,16 @@
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'EmilysHandwriting', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+@font-face{
+  font-family: "EmilysHandwriting";
+  src: url("EmilysHandwriting.ttf");
+  src: url("emilyshandwriting-webfont.woff") format("woff");
 }
 
 canvas{
@@ -27,7 +33,7 @@ main{
 }
 
 h1, h2, h3, blockquote{
-  font-family: elevon, sans-serif;
+  font-family: 'EmilysHandwriting', sans-serif;
   font-weight: 700;
   font-style: normal;
 }
